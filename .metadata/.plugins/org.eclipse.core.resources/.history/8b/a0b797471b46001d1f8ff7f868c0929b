@@ -1,0 +1,6 @@
+package tp2_classe;
+
+public class Point {
+	String nom;
+	private int abscisse,ordonnee;
+}

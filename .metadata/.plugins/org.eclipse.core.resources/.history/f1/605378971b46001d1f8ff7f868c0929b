@@ -1,0 +1,16 @@
+package tp2_classe;
+
+public class Point {
+	String nom;
+	private int abscisse,ordonnee;
+	public void afficher() {
+		System.out.println(nom+"("+abscisse+","+ordonnee+")");
+	}
+	public void deplacer(int a,int b) {
+		abscisse+=a;
+		ordonnee+=b;
+	}
+	public void reset() {
+		
+	}
+}
