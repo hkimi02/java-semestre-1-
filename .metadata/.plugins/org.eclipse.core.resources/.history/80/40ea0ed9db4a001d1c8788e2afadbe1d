@@ -1,0 +1,22 @@
+package tp2_classe;
+
+public class Cercle {
+	private Point centre;
+	private int rayon;	
+	public Cercle(Point p,int rayon) {
+		this.centre=new Point(p);
+		this.rayon=rayon;
+	}
+	public String toString() {
+		return this.centre.getAbsicce()+","+this.centre.getOrdonne()+"rayon"+this.rayon;
+	}
+	public void translater(int dx,int dy) {
+		this.centre.deplacer(dx, dy);
+	}
+	public static boolean equals(Cercle c1,Cercle c2) {
+		return Point.coincide_V2(c1.centre, c2.centre) && c1.rayon==c2.rayon;
+	}
+	public boolean contains(Point p) {
+		return Math.sqrt(((Math.pow(p.getAbsicce() - this.centre.getAbsicce(), 2))+(p.getOrdonne()-this.centre.getOrdonne())))<this.rayon;
+	}
+}

@@ -1,0 +1,6 @@
+package tp2_classe;
+
+public class rectangle {
+private int largeur;
+private int longeur;
+}

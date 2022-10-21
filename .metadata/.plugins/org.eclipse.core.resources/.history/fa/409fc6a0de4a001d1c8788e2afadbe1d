@@ -1,0 +1,7 @@
+package tp2_classe;
+
+public class TestCercle {
+	public static void main(String [] args) {
+		
+	}
+}

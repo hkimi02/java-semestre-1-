@@ -1,0 +1,16 @@
+package tp2_classe;
+
+public class rectangle {
+private int largeur;
+private int longeur;
+private Point coin;
+public rectangle(Point p,int largeur,int longeur) {
+	coin=p;
+	this.largeur=largeur;
+	this.longeur=longeur;
+}
+public rectangle(int absicce,int ordonne,char nom,int largeur,int longeur) {
+	coin =new Point(nom,absicce,ordonne);
+	this.largeur=largeur;
+}
+}

@@ -8,8 +8,8 @@ public static void main(String[] args) {
 //	p1.afficher();
 //	p1.reset();
 //	p1.afficher();
-	Point p1=new Point(3,5);
-	p1.nom='a';
+	Point p1=new Point('a',3,5);
+	p1.setNom('a');
 	Point p2=new Point();
 	Point p3=new Point(p1);
 	p1.afficher();
@@ -20,5 +20,10 @@ public static void main(String[] args) {
 	System.out.println(p3.toString());
 	System.out.println(p1.coïncide_V1(p3));
 	System.out.println(Point.coincide_V2(p2, p3));
+	System.out.println(Point.count);
+	System.out.println(p1.getNum());
+	System.out.println(p2.getNum());
+	System.out.println(p3.getNum());
+	System.out.println(p1.equals(p2));
 }
 }

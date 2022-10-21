@@ -1,0 +1,15 @@
+package tp2_classe;
+
+public class testRectangle {
+	public static void main(String []args) {
+		Point p=new Point('a',1,2);
+		rectangle r1=new rectangle(p,10,12);
+		rectangle r2=new rectangle(1,2,'a',10,12);
+		System.out.println(r1.toString());
+		System.out.println(r2.toString());
+		r1.afficheRect();
+		r2.afficheRect();
+		System.out.println(rectangle.compareRect(r1, r2));
+		
+	}
+}

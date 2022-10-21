@@ -1,0 +1,9 @@
+package tp2_classe;
+
+public class Cercle {
+	private Point centre=new Point();
+	private int rayon;
+	private string toString() {
+		return this.centre.afficher() + "," + this.rayon; 
+	}
+}

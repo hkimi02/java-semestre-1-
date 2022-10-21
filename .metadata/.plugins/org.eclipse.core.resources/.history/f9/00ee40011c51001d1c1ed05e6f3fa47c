@@ -1,0 +1,12 @@
+package tp2_classe;
+
+public class testRectangle {
+	public static void main(String []args) {
+		Point p=new Point('a',1,2);
+		rectangle r=new rectangle(p,10,12);
+		System.out.println(r.toString());
+		rectangle r1=new rectangle(1,2,'c',10,14);
+		System.out.println();
+		
+	}
+}

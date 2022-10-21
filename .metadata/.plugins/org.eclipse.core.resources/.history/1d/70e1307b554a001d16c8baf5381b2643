@@ -1,0 +1,5 @@
+package tp2_classe;
+
+public class Cercle {
+	private Point centre=new point();
+}

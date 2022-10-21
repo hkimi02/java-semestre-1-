@@ -1,0 +1,23 @@
+package tp2_classe;
+
+public class testRectangle {
+	public static void main(String []args) {
+		Point p=new Point('a',1,2);
+		rectangle r1=new rectangle(p,10,12);
+		rectangle r2=new rectangle(1,2,'a',10,12);
+		System.out.println(r1.toString());
+		System.out.println(r2.toString());
+		r1.afficheRect();
+		r2.afficheRect();
+		System.out.println(rectangle.compareRect(r1, r2));
+		r1.DeplacerRect(1, 1);
+		r1.afficheRect();
+		Point p1=new Point('a',1,2);
+		Point p2=new Point('a',1,2);
+		Point p3=new Point('a',1,2);
+		Point p4=new Point('a',1,2);
+		RectangleV2 r1_v2=new RectangleV2(p1,p2);
+		RectangleV2 r2_v2=new RectangleV2(p3,p4);
+		
+	}
+}

@@ -1,0 +1,8 @@
+package tp2_classe;
+
+public class testRectangle {
+	public static void main(String []args) {
+		Point p=new Point('a',1,2);
+		rectangle r=new rectangle();
+	}
+}

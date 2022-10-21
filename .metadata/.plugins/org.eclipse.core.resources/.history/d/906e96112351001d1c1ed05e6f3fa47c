@@ -1,0 +1,10 @@
+package tp2_classe;
+
+public class RectangleV2 {
+	private Point coinGhauche;
+	private Point coinDroit;
+	public RectangleV2(Point coinGhauche,Point coinDroit) {
+		this.coinGhauche=coinGhauche;
+		this.coinDroit=coinDroit;
+	}
+}
