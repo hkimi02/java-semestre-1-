@@ -1,9 +1,0 @@
-package tp2_classe;
-
-public class Cercle {
-	private Point centre;
-	private int rayon;
-	public Cercle(Point p,int rayon) {
-		centre=new Point(p);,
-	}
-}

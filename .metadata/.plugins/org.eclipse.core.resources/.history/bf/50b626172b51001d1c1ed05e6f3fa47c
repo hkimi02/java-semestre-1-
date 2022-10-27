@@ -13,9 +13,9 @@ public class testRectangle {
 		r1.DeplacerRect(1, 1);
 		r1.afficheRect();
 		Point p1=new Point('a',1,2);
-		Point p2=new Point('b',3,4);
-		Point p3=new Point('c',1,2);
-		Point p4=new Point('d',3,4);
+		Point p2=new Point('a',3,4);
+		Point p3=new Point('a',1,2);
+		Point p4=new Point('a',3,4);
 		RectangleV2 r1_v2=new RectangleV2(p1,p2);
 		RectangleV2 r2_v2=new RectangleV2(p3,p4);
 		r1_v2.afficheRect();

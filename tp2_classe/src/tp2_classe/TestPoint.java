@@ -1,5 +1,7 @@
 package tp2_classe;
 
+import java.util.Scanner;
+
 public class TestPoint {
 public static void main(String[] args) {
 //	Point p1=new Point();
@@ -8,7 +10,15 @@ public static void main(String[] args) {
 //	p1.afficher();
 //	p1.reset();
 //	p1.afficher();
-	Point p1=new Point('a',3,5);
+    Scanner sc=new Scanner(System.in);
+    System.out.println("donner l absicce de point : ");
+    int absicce=sc.nextInt();
+    System.out.println("donner l ordonne de point : ");
+    int ordonne=sc.nextInt();
+    System.out.println("donner le nom de point : ");
+    String s=sc.next();
+    char nom=s.charAt(0);
+	Point p1=new Point(nom,absicce,ordonne);
 	p1.setNom('a');
 	Point p2=new Point();
 	Point p3=new Point(p1);
@@ -25,5 +35,6 @@ public static void main(String[] args) {
 	System.out.println(p2.getNum());
 	System.out.println(p3.getNum());
 	System.out.println(p1.equals(p2));
+	
 }
 }
