@@ -4,7 +4,7 @@ public class Cercle {
 	private Point centre;
 	private int rayon;
 	public Cercle(Point p,int rayon) {
-		centre=p;
+		this.centre=p;
 		this.rayon=rayon;
 	}
 	public String toString() {
