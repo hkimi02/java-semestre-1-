@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\hkimi amin\Desktop\POO2022\tp1\.metadata\.plugins\org.eclipse.jdt.core
+974310227.index
+1865797976.index
+1265710238.index
+1692758899.index
+1570088641.index
